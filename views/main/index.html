@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{template "general/header"}}
+</head>
+<body class="bg-gradient-to-r from-gray-800 via-gray-900 to-black">
+    <main class="flex flex-wrap justify-center w-1/2 mx-auto mt-32 gap-y-8 font-oswald ">
+  
+      <!-- Section Logo & Hello Text START-->
+      <section class="flex flex-col items-center gap-y-4">
+        <div class="w-28 h-28 rounded-full flex justify-center items-center bg bg-tealPrimary text-slate-900 animate-bounce">
+            <svg width="70" class="text-slate-900 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+            </svg>
+        </div>
+        <h1 class="text-4xl font-bold text-tealPrimary">Welcome to kanban app</h1>
+        <h2 class="font-normal text-xl text-slate-500">This website was created by <span class="text-slate-400 font-medium">Rafli Adytia Nugraha</span> for the <span class="text-slate-400 text-tealPrimary font-medium">final project!</span></h2>
+      </section>
+      <!-- Section Logo & Hello Text END-->
+    
+      <!-- Section Description START-->
+      <section>
+        <p class="text-slate-300 text-lg text-center font-extralight">Kanban App adalah sebuah website yang dapat digunakan untuk membuat sebuah task (tugas) dan juga bisa mengelompokkan task tersebut menjadi beberapa bagian (kategori).</p>
+      </section>
+      <!-- Section Description END-->
+  
+      <!-- Section Button Login & Register START -->
+      <section class="flex w-full justify-center gap-x-6">
+        <a href="/register" class="text-xl text-center font-bold text-slate-900 bg-tealPrimary w-24 py-2 rounded-md border border-tealPrimary hover:bg-slate-900 transition duration-300 ease-in-out hover:text-white hover:scale-125">REGISTER</a>
+        <a href="/login" class="text-xl text-center font-bold text-white bg-slate-900 border border-tealPrimary w-24 py-2 rounded-md hover:bg-tealPrimary transition duration-300 ease-in-out hover:text-slate-900 hover:scale-125">LOGIN</a>
+      </section>
+      <!-- Section Button Login & Register END -->
+    </main>
+  </body>
+</html>
